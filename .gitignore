@@ -1,0 +1,70 @@
+# QazDub Studio - Git Ignore Rules
+# Барлық уақытша, ауыр модельдік және медиа файлдарды жасыру
+
+# Аудио және видео файлдары
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+*.aac
+*.ogg
+*.flac
+*.m4a
+
+# Үлкен модельдік файлдар мен чекпойнттер
+*.onnx
+*.onnx.json
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+.cache/
+
+# Жұмысшы және шығыс бумалары
+temp/
+output/
+archive/
+.agents/
+
+# Құпия кукилер мен сессиялар
+*.json.cache
+cookies.json
+*cookie*.json
+*.log
+
+# Python кэш және ортасы
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Жүйелік және редактор файлдары
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
